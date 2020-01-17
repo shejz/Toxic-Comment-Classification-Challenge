@@ -13,10 +13,10 @@ Competition data set is available at [Kaggle](https://www.kaggle.com/c/jigsaw-to
 - insult
 - identity hate
 
-> The training set consists of labeled **159,571** comments (observations) and the test set consists of **153,164** comments to be labeled.
+The training set consists of labeled **159,571** comments (observations) and the test set consists of **153,164** comments to be labeled.
 
 ## Evaluation Metric
-Due to changes in the competition data set, the evaluation metric of the competition has been changed and updated on Jan 30, 2018.      -  > Submissions are evaluated on the mean column-wise **ROC AUC** score (the Area computed Under the Receiver Operating Characteristic Curve from prediction scores). In other words, the score is the average of the individual AUCs of each predicted column.
+Due to changes in the competition data set, the evaluation metric of the competition has been changed and updated on Jan 30, 2018.      -   > Submissions are evaluated on the mean column-wise **ROC AUC** score (the Area computed Under the Receiver Operating Characteristic Curve from prediction scores). In other words, the score is the average of the individual AUCs of each predicted column.
 
 
 **Submissions & Leaderboard Scores**
