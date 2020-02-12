@@ -28,6 +28,6 @@ Due to changes in the competition data set, the evaluation metric of the competi
 
 |Model |Public score|Private score|Final rank| 
 |------|--------|--------|---|
-| | | |   |
+|Logistic Regression |0.98022 |0.98048|   |
 |  | | |   |
 | | | |   |
