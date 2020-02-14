@@ -29,5 +29,6 @@ Due to changes in the competition data set, the evaluation metric of the competi
 |Model |Public score|Private score|Final rank| 
 |------|--------|--------|---|
 |Logistic Regression |0.98022 |0.98048|   |
+|BERT with fast.ai |0.98553 |0.98578 |   |
 |Bidirectional GRU  | 0.98600 |0.98580 |   |
-| | | |   |
+
