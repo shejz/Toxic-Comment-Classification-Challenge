@@ -48,6 +48,9 @@ The max_features in the embedding layer is the vocabulary size. Setting `maxfeat
 - Bidirectional-LSTM
 - Bidirectional-GRU
 
+**NOTE**: About ~5-6 hours timeline was for 10 Fold CV with 15 epochs in each fold.
+
+
 ## Submissions & Leaderboard Scores
 
 |Models |Public score|Private score|Final rank| 
