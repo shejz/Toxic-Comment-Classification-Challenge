@@ -30,5 +30,6 @@ Due to changes in the competition data set, the evaluation metric of the competi
 |------|--------|--------|---|
 |Logistic Regression |0.98022 |0.98048|   |
 |BERT with fast.ai |0.98553 |0.98578 |   |
-|Bidirectional-GRU-LSTM  | 0.98673 |0.98634 |723/4550 (Top 16%) |
+|Bidirectional-GRU-LSTM  | 0.98673 |0.98634 |723/4550 ([Top 16%](https://www.kaggle.com/shielaj/competitions)) |
+
 
