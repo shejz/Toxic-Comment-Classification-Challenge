@@ -50,7 +50,7 @@ The max_features in the embedding layer is the vocabulary size. Setting `maxfeat
 
 ## Submissions & Leaderboard Scores
 
-|Model |Public score|Private score|Final rank| 
+|Models |Public score|Private score|Final rank| 
 |------|--------|--------|---|
 |Logistic Regression |0.98022 |0.98048|   |
 |BERT with fast.ai |0.98553 |0.98578 |   |
