@@ -31,16 +31,14 @@ Due to changes in the competition data set, the evaluation metric of the competi
 - Optimizer: Adam with clipped gradient (clipvalue=1.0)
 - Preprocessing: Unidecode library (https://pypi.python.org/pypi/Unidecode) to convert text to ASCII first and after that filtering everything except letters and some punctuation.
 
-The max_features in the embedding layer is the vocabulary size.
- - I am setting maxfeatures = 283759.
+The max_features in the embedding layer is the vocabulary size. Setting `maxfeatures = 283759`.
 
-Excluding all punctuations but the values below:
-- special_character_removal = re.compile(r'[^A-Za-z\.\-\?\!\,\#\@\% ]',re.IGNORECASE)
 
-Text normalization
+**Text normalization**
 - Fixed some misspellings with word2vec.
+- Excluding all punctuations special_character_removal = re.compile(r'[^A-Za-z\.\-\?\!\,\#\@\% ]',re.IGNORECASE)
 
-Pre-trained word embeddings:
+**Pre-trained word embeddings**:
 - FastText (crawl-300d-2M.vec)
 - GloVe (glove.twitter.27B.200d.txt)
 
