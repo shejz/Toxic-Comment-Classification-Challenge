@@ -48,7 +48,7 @@ The max_features in the embedding layer is the vocabulary size. Setting `maxfeat
 - Bidirectional-LSTM
 - Bidirectional-GRU
 
-**Submissions & Leaderboard Scores**
+## Submissions & Leaderboard Scores
 
 |Model |Public score|Private score|Final rank| 
 |------|--------|--------|---|
